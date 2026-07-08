@@ -1,0 +1,7 @@
+package Core.Oops.Inheritance.SingleAnimal;
+
+public class Dog extends Animal{
+    void bark(){
+        System.out.println("Barking...");
+    }
+}
