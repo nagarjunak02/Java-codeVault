@@ -1,4 +1,4 @@
-package Core.Oops.MethodShadowing.Shape;
+package Core.MethodShadowing.Shape;
 
 public class Shape {
     String color;

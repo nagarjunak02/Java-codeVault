@@ -1,4 +1,4 @@
-package Core.Oops.MethodShadowing.Animal;
+package Core.MethodShadowing.Animal;
 
 public class Main {
     public static void main(String[] args) {
