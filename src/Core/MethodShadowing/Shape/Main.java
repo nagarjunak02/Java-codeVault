@@ -1,4 +1,4 @@
-package Core.Oops.MethodShadowing.Shape;
+package Core.MethodShadowing.Shape;
 
 public class Main {
     public static void main(String[] args) {

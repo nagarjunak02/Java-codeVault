@@ -1,4 +1,4 @@
-package Core.Oops.VariableShadowing.Person;
+package Core.VariableShadowing.Person;
 
 public class Teacher extends person{
     String name = "Teacher";
