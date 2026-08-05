@@ -31,7 +31,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student s = new Student("      NagarjUnA     K");
+        StudentClass s = new StudentClass("      NagarjUnA     K");
 
         // Step 1: Remove leading and trailing spaces
         String name = s.getName().trim();

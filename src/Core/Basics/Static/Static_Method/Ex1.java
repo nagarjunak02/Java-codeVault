@@ -7,7 +7,7 @@ public class Ex1 {
     static void display(){
         Ex1 e = new Ex1();
         e.name = "B";
-        System.out.println("Student "+e.name+" has Studing in cllg "+collage);
+        System.out.println("StudentClass "+e.name+" has Studing in cllg "+collage);
     }
 
     public static void main(String[] args) {

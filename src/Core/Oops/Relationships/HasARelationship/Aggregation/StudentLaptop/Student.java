@@ -10,7 +10,7 @@ public class Student {
     }
 
     void displayStudent(){
-        System.out.println("Student name: "+this.name);
+        System.out.println("StudentClass name: "+this.name);
         lap.displayLap();
     }
 }
