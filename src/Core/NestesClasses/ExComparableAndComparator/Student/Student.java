@@ -53,6 +53,6 @@ public class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "Student [id : "+id+" ,Name : "+name+" ,Percent : "+percent+" ,Age: "+age+" ]";
+        return "StudentClass [id : "+id+" ,Name : "+name+" ,Percent : "+percent+" ,Age: "+age+" ]";
     }
 }

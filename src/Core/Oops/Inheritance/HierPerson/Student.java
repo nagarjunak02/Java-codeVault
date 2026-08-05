@@ -9,6 +9,6 @@ public class Student extends Person{
     }
 
     void displayStudent(){
-        System.out.println("Student name: "+super.name+" age : "+super.age+" USN : "+this.usn);
+        System.out.println("StudentClass name: "+super.name+" age : "+super.age+" USN : "+this.usn);
     }
 }
