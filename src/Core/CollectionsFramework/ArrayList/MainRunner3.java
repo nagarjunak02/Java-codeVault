@@ -10,7 +10,7 @@ public class MainRunner3 {
         a1.add(98);
         System.out.println(a1);
 
-//        a1.add(100,20); //IndexOutOfBoundException
+//        a1.addFirst(100,20); //IndexOutOfBoundException
 
         //set()
         a1.set(1,1);
