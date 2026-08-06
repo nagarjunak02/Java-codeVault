@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class CollectionExample1 {
     public static void main(String[] args) {
         Collection<String> list = new ArrayList<>();
-        //add()
+        //addFirst()
         list.add("A");
         list.add("B");
         list.add("C");

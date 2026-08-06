@@ -16,7 +16,7 @@ public class Method1 {
     }
 
     public static void operationMethod(int a,double b){
-        System.out.println("add a and b: "+a+b);
+        System.out.println("addFirst a and b: "+a+b);
         System.out.println("Sub a and b: "+(a-b));
 }
     public static void greet(){
@@ -24,14 +24,14 @@ public class Method1 {
     }
 
 
-//        int addRes = add(a,b);   //Method calling statment here a and b are actual paramets
+//        int addRes = addFirst(a,b);   //Method calling statment here a and b are actual paramets
 //        System.out.println("Added a and b: "+addRes);
 //
 //        int subRes = sub(a,b);
 //        System.out.println("Sub a and b: "+subRes);
 //    }
 //
-//    public static int add(int x, int y){   //Method decalracrion and called method  x and y are formal parameters
+//    public static int addFirst(int x, int y){   //Method decalracrion and called method  x and y are formal parameters
 //        return x+y;
 //    }
 //
