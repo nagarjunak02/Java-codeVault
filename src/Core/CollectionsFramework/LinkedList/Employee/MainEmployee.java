@@ -6,22 +6,6 @@ import java.util.Scanner;
 public class MainEmployee {
     public static void main(String[] args) {
 
-//        Employee e1 = new Employee(101, "Nagarjuna", 65000.0);
-//        Employee e2 = new Employee(105, "Rahul", 55000.0);
-//        Employee e3 = new Employee(103, "Ananya", 72000.0);
-//        Employee e4 = new Employee(102, "Vikram", 48000.0);
-//        Employee e5 = new Employee(104, "Sneha", 60000.0);
-//
-//        LinkedList<Employee> employees = new LinkedList<>();
-//
-//        employees.add(e1);
-//        employees.add(e2);
-//        employees.add(e3);
-//        employees.add(e4);
-//        employees.add(e5);
-//
-//        System.out.println(employees);
-
         EmployeeOperations eo = new EmployeeOperations();
 
         Scanner sc = new Scanner(System.in);

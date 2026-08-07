@@ -1,6 +1,7 @@
 package Core.CollectionsFramework.ArrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainRunner2 {
     public static void main(String[] args) {
@@ -9,14 +10,17 @@ public class MainRunner2 {
         ele.add(20);
         ele.add(30);
 
-        ArrayList<Integer> val = new ArrayList<>();
+        List<Integer> val = new ArrayList<>();
         val.add(23);
         val.add(20);
         val.add(98);
         System.out.println(val);
-
+        val.add(2,12);
+        System.out.println(val.get(1));
         //contains
         System.out.println(val.contains(98));
+        ele.trimToSize();
+//        val.trimToSize();  this method is not present in list and here ref type is list so we cannot use this method
 
         //removing by index
         System.out.println(val.remove(0));
