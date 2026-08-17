@@ -7,7 +7,7 @@ public class ListMethods {
 
         LinkedList<Student> ls = new LinkedList<>();
 
-        // Creating Student Objects
+        // Creating Students Objects
         Student s1 = new Student("A", 2);
         Student s2 = new Student("B", 5);
         Student s3 = new Student("C", 8);

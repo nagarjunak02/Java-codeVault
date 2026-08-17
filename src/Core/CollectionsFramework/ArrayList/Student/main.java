@@ -19,7 +19,7 @@ public class main {
 
             switch (n){
                 case 1:
-                    System.out.println("Enter Name ,id and percent of Student : ");
+                    System.out.println("Enter Name ,id and percent of Students : ");
                     String name = sc.next();
                     int id = sc.nextInt();
                     Double percent = sc.nextDouble();
@@ -30,7 +30,7 @@ public class main {
 
                 case 2:
                     if(std.size() == 0){
-                        System.out.println("Before sorting please enter Student Details");
+                        System.out.println("Before sorting please enter Students Details");
                         break;
                     }else{
                         Collections.sort(std,(s1,s2)->s1.getId().compareTo(s2.getId()));
@@ -39,7 +39,7 @@ public class main {
                     }
                 case 3:
                     if(std.size() == 0){
-                        System.out.println("Before sorting please enter Student Details");
+                        System.out.println("Before sorting please enter Students Details");
                         break;
                     }else {
                         Collections.sort(std, (s1, s2) -> s1.getPercent().compareTo(s2.getPercent()));
@@ -47,7 +47,7 @@ public class main {
                         break;
                     }
                 case 4:
-                    System.out.println("Enter the Student id you want to delete");
+                    System.out.println("Enter the Students id you want to delete");
                     int idd = sc.nextInt();
 
                     Iterator<StudentClass> it = std.iterator();
@@ -55,7 +55,7 @@ public class main {
                         StudentClass s = it.next();
                         if(s.getId() == idd){
                             it.remove();
-                            System.out.println("Student deleted successfully");
+                            System.out.println("Students deleted successfully");
                             break;
                         }
                     }
