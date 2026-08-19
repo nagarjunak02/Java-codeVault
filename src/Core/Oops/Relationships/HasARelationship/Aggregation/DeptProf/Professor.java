@@ -10,6 +10,7 @@ public class Professor {
         this.sub = sub;
     }
     public void dispayProf() {
+
         System.out.println("Professor: "+this.profName+" take sub: "+this.sub);
     }
 }

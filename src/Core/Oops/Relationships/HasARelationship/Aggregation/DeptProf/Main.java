@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Professor p = new Professor("abc","Java");
         Dept d = new Dept("Ise",p);
-        d = null;
-        p.dispayProf();
+//        d = null;
+//        p.dispayProf();
         d.displayDept();
 
     }

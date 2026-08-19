@@ -9,6 +9,7 @@ public class Dept {
         this.p = o;
     }
 
+
     void displayDept(){
         System.out.println("Department:" +this.dept);
         p.dispayProf();
