@@ -12,10 +12,10 @@ public class Student1 {
         this.per = per;
     }
     void studentDisplay(){
-        System.out.println("Id:"+this.id+" name: "+this.name+" from collage : "+Student1.collage()+" got marks: "+per);
+        System.out.println("Id:"+this.id+" name: "+this.name+" from collage : "+Student1.cllg+" got marks: "+per);
 
     }
-    static String collage(){
-        return Student1.cllg;
-    }
+//    static String collage(){
+//        return Student1.cllg;
+//    }
 }
