@@ -1,4 +1,4 @@
-package Core.FileHandling;
+package Core.FileHandling.ByteStrean;
 
 import java.io.FileInputStream;
 import java.io.IOException;

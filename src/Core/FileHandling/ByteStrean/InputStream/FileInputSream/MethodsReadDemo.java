@@ -1,4 +1,4 @@
-package Core.FileHandling.FileInputSream;
+package Core.FileHandling.ByteStrean.InputStream.FileInputSream;
 
 import java.io.File;
 import java.io.FileInputStream;

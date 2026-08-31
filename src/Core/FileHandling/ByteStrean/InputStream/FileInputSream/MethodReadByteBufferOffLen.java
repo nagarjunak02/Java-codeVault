@@ -1,7 +1,6 @@
-package Core.FileHandling.FileInputSream;
+package Core.FileHandling.ByteStrean.InputStream.FileInputSream;
 
 import java.io.FileInputStream;
-import java.io.FileReader;
 
 public class MethodReadByteBufferOffLen {
     public static void main(String[] args) {
