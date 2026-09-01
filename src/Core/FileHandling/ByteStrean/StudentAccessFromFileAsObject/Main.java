@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("C:\\Users\\Nagarjuna\\Music\\Java-codeVault\\Level_1_Basic\\src\\Core\\FileHandling\\StudentAccessFromFileAsObject\\Student.txt");
+        FileInputStream fis = new FileInputStream("C:\\Users\\Nagarjuna\\Music\\Java-codeVault\\Level_1_Basic\\src\\Core\\FileHandling\\ByteStrean\\StudentAccessFromFileAsObject\\Student.txt");
         ArrayList<Student> list = new ArrayList<>();
 
         StringBuilder data = new StringBuilder();
